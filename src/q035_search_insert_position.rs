@@ -44,10 +44,9 @@ impl Solution {
     pub fn search_insert(nums: Vec<i32>, target: i32) -> i32 {
         let mut left = 0_i32;
         let mut right = (nums.len() - 1) as i32;
-        let mut middle = 0_i32;
 
         while left <= right {
-            middle = (left + right) >> 1;
+            let middle = (left + right) >> 1;
             let middle_index = middle as usize;
 
             if target < nums[middle_index] {
@@ -59,11 +58,7 @@ impl Solution {
             }
         }
 
-        if target > nums[middle as usize] {
-            return middle + 1;
-        } else {
-            return middle;
-        }
+        return right + 1;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

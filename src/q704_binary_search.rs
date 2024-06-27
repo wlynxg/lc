@@ -41,13 +41,14 @@ impl Solution {
         let mut left = 0;
         let mut right = (nums.len() - 1) as i32;
         while left <= right {
-            let middle = ((left + right) >> 1) as usize;
-            if target < nums[middle] {
-                right = (middle - 1) as i32;
-            } else if target > nums[middle] {
-                left = (middle + 1) as i32;
+            let middle = (left + right) >> 1;
+            let middle_index = middle as usize;
+            if target < nums[middle_index] {
+                right = middle - 1;
+            } else if target > nums[middle_index] {
+                left = middle + 1;
             } else {
-                return middle as i32;
+                return middle;
             }
         }
 

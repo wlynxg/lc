@@ -55,7 +55,7 @@ impl Solution {
         let mut map: HashMap<i32, usize> = HashMap::with_capacity(nums.len());
         for (i, num) in nums.iter().enumerate() {
             if let Some(&j) = map.get(&(target - num)) {
-                return vec![j as i32, i as i32]
+                return vec![j as i32, i as i32];
             }
             map.insert(*num, i);
         }

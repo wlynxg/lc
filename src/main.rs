@@ -7,6 +7,7 @@ mod q069_my_sqrt;
 mod q283_move_zeroes;
 mod q367_is_perfect_square;
 mod q704_binary_search;
+mod q844_backspace_compare;
 
 fn main() {
     println!("Hello, world!");

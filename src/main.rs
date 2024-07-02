@@ -6,6 +6,7 @@ mod q035_search_insert_position;
 mod q069_my_sqrt;
 mod q209_min_sub_array_len;
 mod q283_move_zeroes;
+mod q344_reverse_string;
 mod q367_is_perfect_square;
 mod q704_binary_search;
 mod q844_backspace_compare;

@@ -8,6 +8,7 @@ mod q209_min_sub_array_len;
 mod q283_move_zeroes;
 mod q344_reverse_string;
 mod q367_is_perfect_square;
+mod q541_reverse_str;
 mod q704_binary_search;
 mod q844_backspace_compare;
 mod q904_total_fruit;

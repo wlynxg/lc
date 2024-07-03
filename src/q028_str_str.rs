@@ -41,7 +41,6 @@ impl Solution {
         let needle_chars = needle.into_bytes();
         let mut next = vec![0; needle_chars.len()];
         Self::get_next(&mut next, &needle_chars);
-        println!("{:?}", next);
         let mut j = 0;
         for i in 0..haystack_chars.len() {
             while j > 0 && haystack_chars[i] != needle_chars[j] {

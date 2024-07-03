@@ -1,6 +1,7 @@
 mod q001_two_sum;
 mod q026_remove_duplicates;
 mod q027_remove_element;
+mod q028_str_str;
 mod q034_search_range;
 mod q035_search_insert_position;
 mod q069_my_sqrt;

@@ -13,6 +13,7 @@ mod q367_is_perfect_square;
 mod q459_repeated_substring_pattern;
 mod q541_reverse_str;
 mod q704_binary_search;
+mod q724_pivot_index;
 mod q844_backspace_compare;
 mod q904_total_fruit;
 mod q977_sorted_squares;

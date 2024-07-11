@@ -74,7 +74,7 @@ impl Solution {
 //leetcode submit region end(Prohibit modification and deletion)
 #[cfg(test)]
 mod tests {
-    use crate::q724_pivot_index::Solution;
+    use crate::q0724_pivot_index::Solution;
 
     #[test]
     fn test() {

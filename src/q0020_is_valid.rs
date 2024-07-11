@@ -68,7 +68,7 @@ impl Solution {
 //leetcode submit region end(Prohibit modification and deletion)
 #[cfg(test)]
 mod tests {
-    use crate::q020_is_valid::Solution;
+    use crate::q0020_is_valid::Solution;
 
     #[test]
     fn test() {

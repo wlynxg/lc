@@ -88,3 +88,57 @@ impl Solution {
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    fn create_linked_list(values: &[i32]) -> Option<Box<ListNode>> {
+        let mut head = None;
+        for &val in values.iter().rev() {
+            let node = ListNode { val, next: head };
+            head = Some(Box::new(node));
+        }
+        head
+    }
+
+    #[test]
+    fn test_example1() {
+        let l1 = create_linked_list(&[2, 4, 3]);
+        let l2 = create_linked_list(&[5, 6, 4]);
+        let result = Solution::add_two_numbers(l1, l2);
+        assert_eq!(format_linked_list(&result), "[7, 0, 8]".to_string());
+    }
+
+    #[test]
+    fn test_example2() {
+        let l1 = create_linked_list(&[0]);
+        let l2 = create_linked_list(&[0]);
+        let result = Solution::add_two_numbers(l1, l2);
+        assert_eq!(format_linked_list(&result), "[0]".to_string());
+    }
+
+    #[test]
+    fn test_example3() {
+        let l1 = create_linked_list(&[9, 9, 9, 9, 9, 9, 9]);
+        let l2 = create_linked_list(&[9, 9, 9, 9]);
+        let result = Solution::add_two_numbers(l1, l2);
+        assert_eq!(
+            format_linked_list(&result),
+            "[8, 9, 9, 9, 0, 0, 0, 1]".to_string()
+        );
+    }
+
+    fn format_linked_list(head: &Option<Box<ListNode>>) -> String {
+        let mut current = head;
+        let mut result = "[".to_string();
+        while let Some(node) = current {
+            result.push_str(&node.val.to_string());
+            current = &node.next;
+            if current.is_some() {
+                result.push_str(", ");
+            }
+        }
+        result.push(']');
+        result
+    }
+}

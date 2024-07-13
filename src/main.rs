@@ -22,6 +22,7 @@ mod q0904_total_fruit;
 mod q0977_sorted_squares;
 mod q2970_incremovable_subarray_count;
 mod q2974_number_game;
+mod q3011_can_sort_array;
 
 fn main() {
     println!("Hello, world!");

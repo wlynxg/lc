@@ -8,6 +8,7 @@ mod q0034_search_range;
 mod q0035_search_insert_position;
 mod q0069_my_sqrt;
 mod q0151_reverse_words;
+mod q0206_reverse_list;
 mod q0209_min_sub_array_len;
 mod q0242_is_anagram;
 mod q0283_move_zeroes;

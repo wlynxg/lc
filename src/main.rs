@@ -21,6 +21,7 @@ mod q0724_pivot_index;
 mod q0844_backspace_compare;
 mod q0904_total_fruit;
 mod q0977_sorted_squares;
+mod q1935_can_be_typed_words;
 mod q2970_incremovable_subarray_count;
 mod q2974_number_game;
 mod q3011_can_sort_array;

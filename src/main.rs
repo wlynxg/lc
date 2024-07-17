@@ -1,6 +1,7 @@
 mod q0001_two_sum;
 mod q0002_add_two_numbers;
 mod q0020_is_valid;
+mod q0021_merge_two_lists;
 mod q0026_remove_duplicates;
 mod q0027_remove_element;
 mod q0028_str_str;

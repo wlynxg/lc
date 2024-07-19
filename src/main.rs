@@ -8,6 +8,7 @@ mod q0028_str_str;
 mod q0034_search_range;
 mod q0035_search_insert_position;
 mod q0058_length_of_last_word;
+mod q0066_plus_one;
 mod q0069_my_sqrt;
 mod q0151_reverse_words;
 mod q0206_reverse_list;

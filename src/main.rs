@@ -1,5 +1,6 @@
 mod q0001_two_sum;
 mod q0002_add_two_numbers;
+mod q0009_is_palindrome;
 mod q0020_is_valid;
 mod q0021_merge_two_lists;
 mod q0026_remove_duplicates;

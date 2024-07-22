@@ -12,6 +12,7 @@ mod q0058_length_of_last_word;
 mod q0066_plus_one;
 mod q0067_add_binary;
 mod q0069_my_sqrt;
+mod q0083_delete_duplicates;
 mod q0151_reverse_words;
 mod q0206_reverse_list;
 mod q0209_min_sub_array_len;

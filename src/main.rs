@@ -28,6 +28,7 @@ mod q0344_reverse_string;
 mod q0367_is_perfect_square;
 mod q0459_repeated_substring_pattern;
 mod q0541_reverse_str;
+mod q0682_cal_points;
 mod q0704_binary_search;
 mod q0724_pivot_index;
 mod q0844_backspace_compare;

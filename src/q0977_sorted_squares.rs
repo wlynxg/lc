@@ -70,15 +70,15 @@ mod tests {
 
     #[test]
     fn test() {
-        // assert_eq!(
-        //     vec![0, 1, 9, 16, 100],
-        //     Solution::sorted_squares(vec![-4, -1, 0, 3, 10])
-        // );
-        // assert_eq!(
-        //     vec![4, 9, 9, 49, 121],
-        //     Solution::sorted_squares(vec![-7, -3, 2, 3, 11])
-        // );
-        // assert_eq!(vec![1], Solution::sorted_squares(vec![1]));
+        assert_eq!(
+            vec![0, 1, 9, 16, 100],
+            Solution::sorted_squares(vec![-4, -1, 0, 3, 10])
+        );
+        assert_eq!(
+            vec![4, 9, 9, 49, 121],
+            Solution::sorted_squares(vec![-7, -3, 2, 3, 11])
+        );
+        assert_eq!(vec![1], Solution::sorted_squares(vec![1]));
         assert_eq!(
             vec![1, 4, 9, 25],
             Solution::sorted_squares(vec![-5, -3, -2, -1])

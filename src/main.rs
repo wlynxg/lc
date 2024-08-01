@@ -37,6 +37,7 @@ mod q0844_backspace_compare;
 mod q0904_total_fruit;
 mod q0977_sorted_squares;
 mod q1935_can_be_typed_words;
+mod q2678_count_seniors;
 mod q2956_find_intersection_values;
 mod q2970_incremovable_subarray_count;
 mod q2974_number_game;

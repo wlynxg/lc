@@ -25,6 +25,7 @@ mod q0209_min_sub_array_len;
 mod q0217_contains_duplicate;
 mod q0219_contains_nearby_duplicate;
 mod q0231_is_power_of_two;
+mod q0234_is_palindrome;
 mod q0242_is_anagram;
 mod q0283_move_zeroes;
 mod q0344_reverse_string;

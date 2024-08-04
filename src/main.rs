@@ -30,6 +30,7 @@ mod q0242_is_anagram;
 mod q0283_move_zeroes;
 mod q0344_reverse_string;
 mod q0367_is_perfect_square;
+mod q0414_third_max;
 mod q0459_repeated_substring_pattern;
 mod q0541_reverse_str;
 mod q0682_cal_points;

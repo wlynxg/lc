@@ -28,6 +28,7 @@ mod q0231_is_power_of_two;
 mod q0234_is_palindrome;
 mod q0242_is_anagram;
 mod q0283_move_zeroes;
+mod q0342_is_power_of_four;
 mod q0344_reverse_string;
 mod q0350_intersect;
 mod q0367_is_perfect_square;

@@ -32,6 +32,7 @@ mod q0342_is_power_of_four;
 mod q0344_reverse_string;
 mod q0350_intersect;
 mod q0367_is_perfect_square;
+mod q0389_find_the_difference;
 mod q0414_third_max;
 mod q0459_repeated_substring_pattern;
 mod q0541_reverse_str;

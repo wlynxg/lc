@@ -27,6 +27,7 @@ mod q0219_contains_nearby_duplicate;
 mod q0231_is_power_of_two;
 mod q0234_is_palindrome;
 mod q0242_is_anagram;
+mod q0258_add_digits;
 mod q0283_move_zeroes;
 mod q0326_is_power_of_three;
 mod q0342_is_power_of_four;

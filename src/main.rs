@@ -36,6 +36,7 @@ mod q0367_is_perfect_square;
 mod q0389_find_the_difference;
 mod q0414_third_max;
 mod q0459_repeated_substring_pattern;
+mod q0476_find_complement;
 mod q0541_reverse_str;
 mod q0682_cal_points;
 mod q0704_binary_search;

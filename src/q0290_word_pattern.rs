@@ -39,8 +39,6 @@
 //
 // Related Topics Hash Table String 👍 7273 👎 1035
 
-use std::ops::Index;
-
 pub struct Solution;
 //leetcode submit region begin(Prohibit modification and deletion)
 impl Solution {
@@ -54,12 +52,12 @@ impl Solution {
         pattern
             .chars()
             .enumerate()
-            .map(|(i, c)| pattern.chars().position(|x| x == c).unwrap())
+            .map(|(_, c)| pattern.chars().position(|x| x == c).unwrap())
             .collect::<Vec<usize>>()
             == words
                 .iter()
                 .enumerate()
-                .map(|(i, &w)| words.iter().position(|&x| x == w).unwrap())
+                .map(|(_, &w)| words.iter().position(|&x| x == w).unwrap())
                 .collect::<Vec<usize>>()
     }
 }

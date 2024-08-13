@@ -51,7 +51,6 @@ impl Solution {
             return false;
         }
         while m > 1 {
-            //println!("{}", m);
             if m % 3 != 0 {
                 return false;
             }
@@ -62,3 +61,14 @@ impl Solution {
 }
 
 //leetcode submit region end(Prohibit modification and deletion)
+#[cfg(test)]
+mod tests {
+    use crate::q0326_is_power_of_three::Solution;
+
+    #[test]
+    fn test() {
+        assert_eq!(true, Solution::is_power_of_three(27));
+        assert_eq!(false, Solution::is_power_of_three(0));
+        assert_eq!(false, Solution::is_power_of_three(-1));
+    }
+}

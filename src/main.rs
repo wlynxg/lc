@@ -53,6 +53,7 @@ mod q2970_incremovable_subarray_count;
 mod q2974_number_game;
 mod q3011_can_sort_array;
 mod q3131_added_integer;
+mod q3151_is_array_special;
 
 fn main() {
     println!("Hello, world!");

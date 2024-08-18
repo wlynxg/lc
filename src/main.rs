@@ -19,6 +19,7 @@ mod q0125_is_palindrome;
 mod q0136_single_number;
 mod q0151_reverse_words;
 mod q0169_majority_element;
+mod q0191_hamming_weight;
 mod q0205_is_isomorphic;
 mod q0206_reverse_list;
 mod q0209_min_sub_array_len;

@@ -42,6 +42,7 @@ mod q0448_find_disappeared_numbers;
 mod q0459_repeated_substring_pattern;
 mod q0476_find_complement;
 mod q0541_reverse_str;
+mod q0645_find_error_nums;
 mod q0682_cal_points;
 mod q0697_find_shortest_sub_array;
 mod q0704_binary_search;

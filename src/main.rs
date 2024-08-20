@@ -35,6 +35,7 @@ mod q0342_is_power_of_four;
 mod q0344_reverse_string;
 mod q0350_intersect;
 mod q0367_is_perfect_square;
+mod q0387_first_uniq_char;
 mod q0389_find_the_difference;
 mod q0414_third_max;
 mod q0448_find_disappeared_numbers;

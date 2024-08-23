@@ -50,6 +50,7 @@ mod q0682_cal_points;
 mod q0697_find_shortest_sub_array;
 mod q0704_binary_search;
 mod q0724_pivot_index;
+mod q0728_self_dividing_numbers;
 mod q0844_backspace_compare;
 mod q0904_total_fruit;
 mod q0977_sorted_squares;

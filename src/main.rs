@@ -62,6 +62,7 @@ mod q2970_incremovable_subarray_count;
 mod q2974_number_game;
 mod q3011_can_sort_array;
 mod q3131_added_integer;
+mod q3146_find_permutation_difference;
 mod q3151_is_array_special;
 mod q3152_is_array_special;
 

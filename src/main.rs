@@ -56,6 +56,7 @@ mod q0904_total_fruit;
 mod q0977_sorted_squares;
 mod q1544_make_good;
 mod q1550_three_consecutive_odds;
+mod q1854_maximum_population;
 mod q1935_can_be_typed_words;
 mod q2678_count_seniors;
 mod q2843_count_symmetric_integers;

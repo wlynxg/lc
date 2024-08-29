@@ -66,6 +66,7 @@ mod q2974_number_game;
 mod q3011_can_sort_array;
 mod q3110_score_of_string;
 mod q3131_added_integer;
+mod q3142_satisfies_conditions;
 mod q3146_find_permutation_difference;
 mod q3151_is_array_special;
 mod q3152_is_array_special;

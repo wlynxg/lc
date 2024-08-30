@@ -70,6 +70,7 @@ mod q3142_satisfies_conditions;
 mod q3146_find_permutation_difference;
 mod q3151_is_array_special;
 mod q3152_is_array_special;
+mod q3153_sum_digit_differences;
 
 fn main() {
     println!("Hello, world!");

@@ -72,6 +72,7 @@ mod q3146_find_permutation_difference;
 mod q3151_is_array_special;
 mod q3152_is_array_special;
 mod q3153_sum_digit_differences;
+mod q485_find_max_consecutive_ones;
 
 fn main() {
     println!("Hello, world!");

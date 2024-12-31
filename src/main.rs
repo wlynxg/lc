@@ -15,6 +15,7 @@ mod q0058_length_of_last_word;
 mod q0066_plus_one;
 mod q0067_add_binary;
 mod q0069_my_sqrt;
+mod q0073_set_zeroes;
 mod q0083_delete_duplicates;
 mod q0125_is_palindrome;
 mod q0136_single_number;

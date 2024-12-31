@@ -10,6 +10,7 @@ mod q0027_remove_element;
 mod q0028_str_str;
 mod q0034_search_range;
 mod q0035_search_insert_position;
+mod q0048_rotate;
 mod q0058_length_of_last_word;
 mod q0066_plus_one;
 mod q0067_add_binary;

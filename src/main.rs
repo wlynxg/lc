@@ -13,6 +13,7 @@ mod q0035_search_insert_position;
 mod q0048_rotate;
 mod q0054_spiral_order;
 mod q0058_length_of_last_word;
+mod q0059_generate_matrix;
 mod q0066_plus_one;
 mod q0067_add_binary;
 mod q0069_my_sqrt;

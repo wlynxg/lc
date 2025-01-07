@@ -23,6 +23,7 @@ mod q0125_is_palindrome;
 mod q0136_single_number;
 mod q0151_reverse_words;
 mod q0153_find_min;
+mod q0154_find_min;
 mod q0167_two_sum;
 mod q0169_majority_element;
 mod q0191_hamming_weight;

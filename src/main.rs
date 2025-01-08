@@ -8,6 +8,7 @@ mod q0021_merge_two_lists;
 mod q0026_remove_duplicates;
 mod q0027_remove_element;
 mod q0028_str_str;
+mod q0033_search;
 mod q0034_search_range;
 mod q0035_search_insert_position;
 mod q0048_rotate;

@@ -1,6 +1,7 @@
 mod q0001_two_sum;
 mod q0002_add_two_numbers;
 mod q0009_is_palindrome;
+mod q0011_max_area;
 mod q0013_roman_to_int;
 mod q0014_longest_common_prefix;
 mod q0020_is_valid;

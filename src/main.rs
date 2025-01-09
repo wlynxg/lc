@@ -22,6 +22,7 @@ mod q0069_my_sqrt;
 mod q0073_set_zeroes;
 mod q0083_delete_duplicates;
 mod q0125_is_palindrome;
+mod q0128_longest_consecutive;
 mod q0136_single_number;
 mod q0151_reverse_words;
 mod q0153_find_min;

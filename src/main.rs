@@ -4,6 +4,7 @@ mod q0009_is_palindrome;
 mod q0011_max_area;
 mod q0013_roman_to_int;
 mod q0014_longest_common_prefix;
+mod q0015_three_sum;
 mod q0020_is_valid;
 mod q0021_merge_two_lists;
 mod q0026_remove_duplicates;

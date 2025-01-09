@@ -12,6 +12,7 @@ mod q0033_search;
 mod q0034_search_range;
 mod q0035_search_insert_position;
 mod q0048_rotate;
+mod q0049_group_anagrams;
 mod q0054_spiral_order;
 mod q0058_length_of_last_word;
 mod q0059_generate_matrix;

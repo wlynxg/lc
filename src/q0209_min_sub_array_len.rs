@@ -46,7 +46,7 @@ pub struct Solution;
 //leetcode submit region begin(Prohibit modification and deletion)
 impl Solution {
     pub fn min_sub_array_len(target: i32, nums: Vec<i32>) -> i32 {
-        let mut result = i32::MAX;
+        let mut result = nums.len() as i32 + 1;
         let mut sum = 0;
         let mut start = 0;
 
@@ -61,7 +61,11 @@ impl Solution {
             }
         }
 
-        return if result == i32::MAX { 0 } else { result };
+        if result == nums.len() as i32 + 1 {
+            0
+        } else {
+            result
+        }
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

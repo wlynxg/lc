@@ -1,5 +1,6 @@
 mod q0001_two_sum;
 mod q0002_add_two_numbers;
+mod q0003_length_of_longest_substring;
 mod q0009_is_palindrome;
 mod q0011_max_area;
 mod q0013_roman_to_int;

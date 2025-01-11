@@ -72,6 +72,7 @@ mod q0728_self_dividing_numbers;
 mod q0844_backspace_compare;
 mod q0904_total_fruit;
 mod q0977_sorted_squares;
+mod q1456_max_vowels;
 mod q1544_make_good;
 mod q1550_three_consecutive_odds;
 mod q1854_maximum_population;

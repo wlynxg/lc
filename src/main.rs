@@ -66,6 +66,7 @@ mod q0645_find_error_nums;
 mod q0682_cal_points;
 mod q0697_find_shortest_sub_array;
 mod q0704_binary_search;
+mod q0713_num_subarray_product_less_than_k;
 mod q0724_pivot_index;
 mod q0728_self_dividing_numbers;
 mod q0844_backspace_compare;

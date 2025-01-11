@@ -56,6 +56,7 @@ mod q0367_is_perfect_square;
 mod q0387_first_uniq_char;
 mod q0389_find_the_difference;
 mod q0414_third_max;
+mod q0438_find_anagrams;
 mod q0448_find_disappeared_numbers;
 mod q0459_repeated_substring_pattern;
 mod q0476_find_complement;

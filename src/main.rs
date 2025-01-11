@@ -63,6 +63,7 @@ mod q0476_find_complement;
 mod q0482_license_key_formatting;
 mod q0498_find_diagonal_order;
 mod q0541_reverse_str;
+mod q0643_find_max_average;
 mod q0645_find_error_nums;
 mod q0682_cal_points;
 mod q0697_find_shortest_sub_array;

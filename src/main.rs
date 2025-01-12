@@ -74,6 +74,7 @@ mod q0728_self_dividing_numbers;
 mod q0844_backspace_compare;
 mod q0904_total_fruit;
 mod q0977_sorted_squares;
+mod q1297_max_freq;
 mod q1343_num_of_subarrays;
 mod q1423_max_score;
 mod q1456_max_vowels;

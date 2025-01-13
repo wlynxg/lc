@@ -86,6 +86,7 @@ mod q189_rotate_array;
 mod q1935_can_be_typed_words;
 mod q2090_get_averages;
 mod q2678_count_seniors;
+mod q2824_count_pairs;
 mod q2843_count_symmetric_integers;
 mod q2956_find_intersection_values;
 mod q2970_incremovable_subarray_count;

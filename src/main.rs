@@ -81,6 +81,7 @@ mod q1456_max_vowels;
 mod q1544_make_good;
 mod q1550_three_consecutive_odds;
 mod q1652_decrypt;
+mod q1750_minimum_length;
 mod q1854_maximum_population;
 mod q189_rotate_array;
 mod q1935_can_be_typed_words;

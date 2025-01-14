@@ -80,6 +80,7 @@ mod q1423_max_score;
 mod q1456_max_vowels;
 mod q1544_make_good;
 mod q1550_three_consecutive_odds;
+mod q1616_check_palindrome_formation;
 mod q1652_decrypt;
 mod q1750_minimum_length;
 mod q1854_maximum_population;

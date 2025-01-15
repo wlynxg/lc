@@ -34,57 +34,28 @@ pub struct Solution;
 //leetcode submit region begin(Prohibit modification and deletion)
 impl Solution {
     pub fn search_range(nums: Vec<i32>, target: i32) -> Vec<i32> {
-        let left = Self::get_left_border(&nums, target);
-        let right = Self::get_right_border(&nums, target);
-
-        if left == -2 || right == -2 {
+        let left = Self::find(&nums, target);
+        if left as usize == nums.len() || nums[left as usize] != target {
             return vec![-1, -1];
         }
 
-        if right - left > 1 {
-            return vec![left + 1, right - 1];
-        }
-        return vec![-1, -1];
+        let right = Self::find(&nums, target + 1) - 1;
+        vec![left, right]
     }
 
-    fn get_right_border(nums: &Vec<i32>, target: i32) -> i32 {
+    fn find(nums: &Vec<i32>, target: i32) -> i32 {
         let mut left = 0_i32;
         let mut right = nums.len() as i32 - 1;
-        let mut right_border = -2;
 
         while left <= right {
-            let middle = (left + right) >> 1;
-            let middle_index = middle as usize;
-
-            if target < nums[middle_index] {
+            let middle = left + ((right - left) >> 1);
+            if nums[middle as usize] >= target {
                 right = middle - 1;
-            } else {
-                left = middle + 1;
-                right_border = left;
-            }
-        }
-
-        return right_border;
-    }
-
-    fn get_left_border(nums: &Vec<i32>, target: i32) -> i32 {
-        let mut left = 0_i32;
-        let mut right = nums.len() as i32 - 1;
-        let mut left_border = -2;
-
-        while left <= right {
-            let middle = (left + right) >> 1;
-            let middle_index = middle as usize;
-
-            if target <= nums[middle_index] {
-                right = middle - 1;
-                left_border = right;
             } else {
                 left = middle + 1;
             }
         }
-
-        return left_border;
+        left
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

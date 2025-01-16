@@ -71,6 +71,7 @@ mod q0704_binary_search;
 mod q0713_num_subarray_product_less_than_k;
 mod q0724_pivot_index;
 mod q0728_self_dividing_numbers;
+mod q0744_next_greatest_letter;
 mod q0844_backspace_compare;
 mod q0904_total_fruit;
 mod q0977_sorted_squares;

@@ -33,7 +33,7 @@
 //
 // Related Topics Array Binary Search 👍 11758 👎 248
 
-pub struct Solution {}
+pub struct Solution;
 
 //leetcode submit region begin(Prohibit modification and deletion)
 impl Solution {
@@ -52,7 +52,7 @@ impl Solution {
             }
         }
 
-        return -1;
+        -1
     }
 }
 

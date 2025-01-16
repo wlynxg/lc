@@ -46,7 +46,7 @@ impl Solution {
         let mut right = (nums.len() - 1) as i32;
 
         while left <= right {
-            let middle = (left + right) >> 1;
+            let middle = left + ((right - left) >> 1);
             let middle_index = middle as usize;
 
             if target < nums[middle_index] {
@@ -58,7 +58,7 @@ impl Solution {
             }
         }
 
-        return right + 1;
+        right + 1
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

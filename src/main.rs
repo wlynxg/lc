@@ -76,6 +76,7 @@ mod q0744_next_greatest_letter;
 mod q0844_backspace_compare;
 mod q0904_total_fruit;
 mod q0977_sorted_squares;
+mod q1124_longest_wpi;
 mod q1170_num_smaller_by_frequency;
 mod q1297_max_freq;
 mod q1343_num_of_subarrays;

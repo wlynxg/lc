@@ -83,6 +83,7 @@ mod q1297_max_freq;
 mod q1343_num_of_subarrays;
 mod q1423_max_score;
 mod q1456_max_vowels;
+mod q1475_final_prices;
 mod q1544_make_good;
 mod q1550_three_consecutive_odds;
 mod q1616_check_palindrome_formation;

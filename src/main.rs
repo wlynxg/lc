@@ -58,6 +58,7 @@ mod q0389_find_the_difference;
 mod q0414_third_max;
 mod q0438_find_anagrams;
 mod q0448_find_disappeared_numbers;
+mod q0456_find132pattern;
 mod q0459_repeated_substring_pattern;
 mod q0476_find_complement;
 mod q0482_license_key_formatting;

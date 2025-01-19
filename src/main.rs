@@ -95,6 +95,7 @@ mod q189_rotate_array;
 mod q1935_can_be_typed_words;
 mod q2090_get_averages;
 mod q2105_minimum_refill;
+mod q2379_minimum_recolors;
 mod q2563_count_fair_pairs;
 mod q2678_count_seniors;
 mod q2824_count_pairs;

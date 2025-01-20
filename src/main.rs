@@ -66,6 +66,7 @@ mod q0482_license_key_formatting;
 mod q0485_find_max_consecutive_ones;
 mod q0496_next_greater_element;
 mod q0498_find_diagonal_order;
+mod q0503_next_greater_elements;
 mod q0541_reverse_str;
 mod q0643_find_max_average;
 mod q0645_find_error_nums;

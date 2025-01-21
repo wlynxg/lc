@@ -35,6 +35,7 @@ mod q0167_two_sum;
 mod q0169_majority_element;
 mod q0189_rotate_array;
 mod q0191_hamming_weight;
+mod q0198_rob;
 mod q0205_is_isomorphic;
 mod q0206_reverse_list;
 mod q0209_min_sub_array_len;

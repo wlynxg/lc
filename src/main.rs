@@ -39,6 +39,7 @@ mod q0198_rob;
 mod q0205_is_isomorphic;
 mod q0206_reverse_list;
 mod q0209_min_sub_array_len;
+mod q0213_rob;
 mod q0217_contains_duplicate;
 mod q0219_contains_nearby_duplicate;
 mod q0231_is_power_of_two;

@@ -102,6 +102,7 @@ mod q1854_maximum_population;
 mod q1935_can_be_typed_words;
 mod q2090_get_averages;
 mod q2105_minimum_refill;
+mod q2320_count_house_placements;
 mod q2379_minimum_recolors;
 mod q2563_count_fair_pairs;
 mod q2678_count_seniors;

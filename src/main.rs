@@ -23,6 +23,7 @@ mod q0059_generate_matrix;
 mod q0066_plus_one;
 mod q0067_add_binary;
 mod q0069_my_sqrt;
+mod q0070_climb_stairs;
 mod q0073_set_zeroes;
 mod q0083_delete_duplicates;
 mod q0125_is_palindrome;
